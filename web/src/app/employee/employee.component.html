@@ -1,0 +1,18 @@
+<table class="table table-scriped bg-black text-white">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Név</th>
+            <th>Település</th>
+            <th>Fizetés</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let emp of employees">
+            <td>{{ emp.id }}</td>
+            <td>{{ emp.name }}</td>
+            <td>{{ emp.city }}</td>
+            <td>{{ emp.salary }}</td>
+        </tr>
+    </tbody>
+</table>

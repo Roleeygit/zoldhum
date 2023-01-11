@@ -1,0 +1,17 @@
+<div class="container bg-black text-white">
+    <div>
+        <div class="mb-3">
+          <label for="name" class="form-label">Felhasználónév</label>
+          <input type="name" class="form-control" id="name" 
+          [(ngModel)]="name">
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Jelszó</label>
+          <input type="password" class="form-control" id="password"
+          [(ngModel)]="pass">
+        </div>
+        <button type="button" class="btn btn-success" (click)="login()"
+        >Belépés</button>
+        </div>
+</div>
